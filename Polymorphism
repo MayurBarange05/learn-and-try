@@ -1,0 +1,31 @@
+package d6;
+public class m1 {
+    public void me() {
+        System.out.println("mayur is ");
+    }
+}
+
+class nature extends m1{
+    public void me() {
+        System.out.println("happy");
+    }
+}
+
+class look extends m1 {
+    public void me() {
+        System.out.println("smart");
+    }
+}
+
+class msp {
+    public static void main(String[] args) {
+        m1 CB = new m1();
+        m1 CD = new nature();
+        m1 CM = new look();
+
+        CB.me();
+        CD.me();
+        CB.me();
+        CM.me();
+    }
+}
