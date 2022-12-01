@@ -1,1 +1,1 @@
-"# lern-and-rty" 
+"# lern-and-try" 
